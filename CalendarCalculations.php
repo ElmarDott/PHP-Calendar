@@ -7,6 +7,10 @@ namespace eu\freeplace\php\calendar;
  */
 class CalendarCalculations {
 
+    public function __construct() {
+
+    }
+
     public function isLeapYear($year) {
         $date = ($year >= 2000) ? $year : (($year < 80) ? $year + 2000 : $year + 1900);
         $chk01 = $date % 4;

@@ -2,15 +2,16 @@
 
 namespace eu\freeplace\php\calendar;
 
-include './CalandarTableView.php';
-include './Holidays.php';
+include_once './CalandarTableView.php';
+include_once './Holidays.php';
+include_once './CalendarCalculations.php';
 
 /**
  * @author Elmar Dott
  */
 class Calendar {
 
-    private $months = array("Januar", "Februar", "M�rz", "April", "Mai", "Juni",
+    private $months = array("Januar", "Februar", "M?rz", "April", "Mai", "Juni",
         "Juli", "August", "September", "Oktober", "November", "Dezember");
     private $days = array("Mo", "Di", "Mi", "Do", "Fr", "Sa", "So");
     private $daysCountOfMonth = array("31", "28", "31", "30", "31", "30", "31",

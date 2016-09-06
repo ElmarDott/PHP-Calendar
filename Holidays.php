@@ -2,7 +2,7 @@
 
 namespace eu\freeplace\php\calendar;
 
-include 'CalendarCalculations.php';
+include_once 'CalendarCalculations.php';
 
 /**
  * @author Elmar Dott
@@ -40,7 +40,7 @@ class Holidays {
         $this->holidays[1] [1] [1] = 1;
         $this->holidays[1] [1] [0] = "Neujahr";
         $this->holidays[1] [6] [1] = 1;
-        $this->holidays[1] [6] [0] = "Heiligen drei KÃ¶nige";
+        $this->holidays[1] [6] [0] = "Heiligen drei Könige";
 
         //Mai
         $this->holidays[5] [1] [1] = 1;
