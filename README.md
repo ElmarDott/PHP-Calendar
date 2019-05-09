@@ -29,7 +29,7 @@ $this->holidays[Month] [Day] [OPTION: 0 = "HolidayName" | 1 = Type]
 
 ## License
 
-This project is licensed under the General Public License GPL-3.0
+This project is licensed under the Apache License 2.0
 
 ## Contributors
 
